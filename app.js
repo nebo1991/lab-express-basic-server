@@ -25,7 +25,7 @@ app.get("/", (request, response) => {
   return response.sendFile(__dirname + "/views/home.html");
 });
 
-app.get("/get", (request, response) => {
+app.get("/blog", (request, response) => {
   return response.sendFile(__dirname + "/views/blog.html");
 });
 
